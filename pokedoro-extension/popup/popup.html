@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PokeCatcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    button {
+        background-color: #c7c95c;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20%;
+    }
+</style>
+
+<body>
+    <!-- pokemon header -->
+    <img src="pokedoro-logo.png" />
+    <!-- <img src="https://www.pikpng.com/pngl/b/31-319697_pokemon-logo-png-transparent-pokemon-logo-png-images.png"> -->
+
+
+
+    <div id="catching_area">
+        <!-- id is used for header, class used for image-->
+        <h2 id="pokemon_name"></h2>
+        <span style="font-size: 14px;"></span><br>
+        <img class="pokemon_image" src="" alt=""><br>
+    </div>
+
+    <!-- Catch Button-->
+    <button id="poke">Poke Ball!</button>
+    <button id="great">Great Ball!</button>
+    <button id="ultra">Ultra Ball!</button>
+
+    <br>
+    <br>
+
+    <!-- Show my Pokemon container-->
+    <!--<button id="my_pokemon_button" onclick="console.log('clicked'); location.href='http://pokedoro.tech/';">My
+        Pokemon</button>-->
+    <a href="http://pokedoro.tech" target="_blank" style="font-size: 20px; text-decoration: none;">My Pokemon</a>
+    <div id="pokeball" class="hide">
+        <h3></h3>
+        <img class="pokemon_image" sec="">
+    </div>
+
+    <!-- Timer -->
+    <div>
+        <p id="countdown" style="font-size: 14px;"></p>
+    </div>
+
+    <button id="timer_button" style="background-color: rgb(53, 122, 65);">Start Timer</button>
+
+
+    <script src="popup.js"></script>
+</body>
+
+
+</html>
+
+<!-- Add DOMS -->

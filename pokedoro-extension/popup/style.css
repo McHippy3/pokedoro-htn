@@ -1,0 +1,21 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 20px; 
+}
+
+img {
+    width: 80%;
+}
+.pokemon_image{
+    width: auto;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
